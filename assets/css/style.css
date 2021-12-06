@@ -285,9 +285,10 @@ h1, h2, h3, h4, h5, h6 {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/portfolio/hero.jpeg") fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../img/portfolio/hero.jpeg") fixed center center;
   background-size: cover;
   padding: 120px 0;
+  height: 40vh;
 }
 .cta h3 {
   color: #fff;
@@ -361,8 +362,9 @@ section {
 # About Us
 --------------------------------------------------------------*/
 .about{
+  height:100vh;
   color: rgb(43, 43, 43);
-  background-image:linear-gradient(120deg,rgb(253, 253, 253) 50%, #1E88E5 50%);
+  background: linear-gradient(125deg, #ECFCFF 0%, #ECFCFF 40%, #B2FCFF calc(40% + 1px), #B2FCFF 60%, #5EDFFF calc(60% + 1px), #5EDFFF 72%, #3ea2ff calc(72% + 1px), #3E64FF 100%);
 }
 .about .image {
   background-color: white;
@@ -389,6 +391,9 @@ section {
 }
 .about .content p:last-child {
   margin-bottom: 0;
+}
+.row{
+  /* padding: 30px; */
 }
 
 /*--------------------------------------------------------------
@@ -437,6 +442,10 @@ section {
 .featured {
   padding: 40px 0 0 0;
   background: white;
+}
+.featured > .container > .row{
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .featured .nav-tabs {
   border: 0;
