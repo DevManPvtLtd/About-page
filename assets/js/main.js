@@ -248,3 +248,7 @@
   });
 
 })()
+/* change feature image on hover */
+function onHover(s){
+  document.getElementById(s).click();
+}
